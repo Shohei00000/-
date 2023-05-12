@@ -1,0 +1,178 @@
+/* ここから下に記載していく */
+@charset "UTF-8";
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* headerのスタイル */
+.header {
+  margin: 0 auto;
+  padding: 40px 0 20px 0;
+  background-color: rgb(169, 247, 182);
+}
+
+.header-nav {
+  margin: 10px 0 10px 0;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: right;
+}
+
+.nav-item:hover {
+  background-color: #cd8c8c;
+  color: #fff;
+}
+
+.nav-item + .nav-item {
+  margin-left: 34px;
+}
+
+.lab-img {
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 1080px;
+  margin: 0 auto;
+  padding: 60px 0 60px 0;
+}
+
+.container {
+  width: 1080px;
+  padding: 0 30px 30px 30px;
+  margin: 0 auto;
+}
+
+.ttl {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.ttl2 {
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+
+.section-wrap {
+  margin-top: 22px;
+}
+
+.section-ttl {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #b5d569;
+  padding: 8px 0 8px 8px;
+}
+
+.section-ttl2 {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  color: #646464;
+  font-size: 35px;
+}
+
+.section-wrap p {
+  margin-top: 8px;
+  line-height: normal;
+}
+
+.items-wrap {
+  margin-top: 40px;
+}
+
+.items-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-wrap {
+  text-align: center;
+}
+
+。link-btn {
+  font-family: "Noto Sans JP", sans-serif;
+  display: block;
+  border: 1px solid #ccc;
+  width: 160px;
+  line-height: 40px;
+  border-radius: 20px;
+}
+
+.a {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #ff6347;
+  padding: 8px 8px 8px 8px;
+  width: 650px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.items-img {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.items-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.b {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: skyblue;
+  padding: 8px 8px 8px 8px;
+  width: 650px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.c {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgb(224, 224, 52);
+  padding: 8px 8px 8px 8px;
+  width: 650px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.d {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgb(26, 183, 26);
+  padding: 8px 8px 8px 8px;
+  width: 650px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section-wrap2 p {
+  margin-top: 8px;
+  line-height: normal;
+  padding: 0 55px;
+}
+.footer {
+  padding: 30px 0;
+  text-align: center;
+  background-color: rgb(200, 198, 198);
+}
+
+.footer-nav {
+  margin: 10px 0 10px 0;
+}
+
+.nav-list2 {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-cr {
+  font-size: 15px;
+}
